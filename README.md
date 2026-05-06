@@ -37,7 +37,9 @@ Panel principal de IceCC3
 - `python` (3.6+)
 - `gtk4`
 - `python-gobject`
-- `polkit` (opcional, para guardar archivos protegidos con contraseña)
+- `polkit-gnome` 
+- `pkexec`
+
 
 En Arch Linux se instalan automáticamente con el paquete AUR.
 
