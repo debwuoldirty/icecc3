@@ -45,7 +45,7 @@ En Arch Linux se instalan automáticamente con el paquete AUR.
 
 ## Instalación
 
-###Desde AUR (recomendado para Arch Linux)
+### Desde AUR (recomendado para Arch Linux)
 ```bash
 yay -S icecc3
 
