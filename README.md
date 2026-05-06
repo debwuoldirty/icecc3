@@ -47,15 +47,13 @@ En Arch Linux se instalan automáticamente con el paquete AUR.
 
 
 ```bash
-yay -S icecc3
+yay -S icecc3 (AUR)
 
-
-
+(GITHUB)
 git clone https://github.com/debwuoldirty/icecc3
 cd icecc3
 makepkg -si
 
-######
 
 
 ## Licencia
