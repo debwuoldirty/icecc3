@@ -45,11 +45,12 @@ En Arch Linux se instalan automáticamente con el paquete AUR.
 
 ## Instalación
 
-AUR
+
 ```bash
 yay -S icecc3
 
-GITHUB
+
+
 git clone https://github.com/debwuoldirty/icecc3
 cd icecc3
 makepkg -si
