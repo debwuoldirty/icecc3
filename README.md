@@ -18,7 +18,7 @@ Panel principal de IceCC3
 
 ##  Herramientas incluidas
 
-| Icono | Herramienta | Descripción |
+| Icono | Herramienta |
 |:---:|---|:---|
  **Editor de menús** | Añade, elimina y reordena aplicaciones en el menú de IceWM. |
  **Editor de la barra de herramientas** | Administra los lanzadores de la barra superior (prog, iconos, comandos). |
