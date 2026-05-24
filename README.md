@@ -46,18 +46,18 @@ En Arch Linux se instalan automáticamente con el paquete AUR.
 
 🔹 Desde AUR (recomendado para Arch Linux)
 
-
+```bash
 yay -S icecc3
 
 🔹 Desde GitHub (compilación manual)
-
+bash
 
 git clone https://github.com/debwuoldirty/icecc3
 cd icecc3
 makepkg -si
 
 🔹 Solo probar (sin instalar)
-
+bash
 
 git clone https://github.com/debwuoldirty/icecc3
 cd icecc3
@@ -67,7 +67,6 @@ cd icecc3
 
 Este proyecto se distribuye bajo la licencia GNU General Public License v2.0 (GPL‑2.0+).
 Véase el archivo LICENSE para más detalles.
-
 🙏 Créditos
 
     Vadim A. Khohlov – creador del IceWM Control Center original (2002‑2004).
