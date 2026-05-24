@@ -45,19 +45,19 @@ En Arch Linux se instalan automáticamente con el paquete AUR.
 ## 🚀 Instalación
 
 🔹 Desde AUR (recomendado para Arch Linux)
-bash
+
 
 yay -S icecc3
 
 🔹 Desde GitHub (compilación manual)
-bash
+
 
 git clone https://github.com/debwuoldirty/icecc3
 cd icecc3
 makepkg -si
 
 🔹 Solo probar (sin instalar)
-bash
+
 
 git clone https://github.com/debwuoldirty/icecc3
 cd icecc3
