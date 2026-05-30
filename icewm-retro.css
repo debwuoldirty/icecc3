@@ -1,0 +1,115 @@
+cd ~/Proyectos/icecc3
+cat > icewm-retro.css << 'EOF'
+/* Estilo retro Win95 para IceCC3 */
+@define-color theme_bg_color #c0c0c0;
+@define-color theme_fg_color #000000;
+@define-color theme_selected_bg_color #000080;
+@define-color theme_selected_fg_color #ffffff;
+
+window {
+    background-color: @theme_bg_color;
+}
+
+button {
+    background-color: #c0c0c0;
+    color: #000000;
+    border: 2px outset #ffffff;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    padding: 4px 8px;
+    font-family: "MS Sans Serif", "DejaVu Sans", sans-serif;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #d4d4d4;
+}
+
+button:active {
+    border-style: inset;
+    background-color: #a0a0a0;
+}
+
+label {
+    color: #000000;
+    font-family: "MS Sans Serif", "DejaVu Sans", sans-serif;
+    font-size: 12px;
+}
+
+headerbar {
+    background-color: #000080;
+    color: #ffffff;
+    font-weight: bold;
+    min-height: 30px;
+    padding: 0px;
+}
+
+headerbar label {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+headerbar button {
+    min-width: 18px;
+    min-height: 18px;
+    padding: 0px;
+    margin: 2px;
+    border: 1px outset #ffffff;
+    background-color: #c0c0c0;
+}
+
+headerbar button:last-child {
+    margin-right: 6px;
+}
+
+entry {
+    border: 2px inset #808080;
+    background-color: #ffffff;
+}
+
+list row {
+    background-color: #ffffff;
+    border-bottom: 1px solid #808080;
+}
+
+list row:selected {
+    background-color: #000080;
+    color: #ffffff;
+}
+
+tooltip {
+    background-color: #ffffcc;
+    color: #000000;
+    border: 2px outset #ffffff;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    padding: 4px;
+    font-family: "MS Sans Serif", "DejaVu Sans", sans-serif;
+    font-size: 11px;
+}
+
+tooltip label {
+    color: #000000;
+}
+
+/* Botones del panel de control (estilo Win98) */
+.icon-button {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 8px;
+    font-size: 11px;
+    color: black;
+}
+
+.icon-button:hover {
+    background-color: #c0c0c0;
+    border: 1px dotted #808080;
+}
+
+.icon-button:active,
+.icon-button:focus {
+    background-color: #a0a0a0;
+    border: 1px dotted #000;
+}
+EOF
