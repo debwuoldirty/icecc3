@@ -38,6 +38,8 @@ Basado en el proyecto original de **Vadim A. Khohlov** (2002‑2004), ahora rees
 - `python-gobject`
 - `polkit` (opcional, para guardar archivos protegidos con contraseña)
 - `pkexec` (opcional, para editar archivos del sistema)
+- `mpv`
+- `xwinwrap` 
 
 En Arch Linux se instalan automáticamente con el paquete AUR.
 
