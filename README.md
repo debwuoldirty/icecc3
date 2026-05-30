@@ -27,6 +27,7 @@ Basado en el proyecto original de **Vadim A. Khohlov** (2002‑2004), ahora rees
 | 🔊 **Sonido** | Asigna archivos WAV a eventos de IceWM (inicio, cierre, cambio de escritorio…). |
 | 🖱️ **Cursores** | Cambia el tema del cursor (XCursor) e instala nuevos temas desde `.tar.gz`. |
 | 🗂️ **Áreas de trabajo** | Añade, elimina y renombra áreas de trabajo. |
+| 🎬 **Fondo de vídeo** | Establece un vídeo MP4 como fondo de pantalla animado con xwinwrap y mpv. |
 
 ---
 
