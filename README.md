@@ -3,7 +3,7 @@
 ![Licencia](https://img.shields.io/badge/licencia-GPLv2-blue.svg)
 ![Plataforma](https://img.shields.io/badge/plataforma-Linux-lightgrey)
 ![Gestor de ventanas](https://img.shields.io/badge/gestor-IceWM-5b8cc4)
-![Versión](https://img.shields.io/badge/versión-1.2.0-green)
+![Versión](https://img.shields.io/badge/versión-1.3.0-green)
 
 **IceWM Control Center** es una suite de herramientas gráficas para configurar el gestor de ventanas [IceWM](https://ice-wm.org/) sin necesidad de editar archivos manualmente.  
 Basado en el proyecto original de **Vadim A. Khohlov** (2002‑2004), ahora reescrito en Python 3 y GTK 4 para las distribuciones modernas.
@@ -27,6 +27,7 @@ Basado en el proyecto original de **Vadim A. Khohlov** (2002‑2004), ahora rees
 | 🔊 **Sonido** | Asigna archivos WAV a eventos de IceWM (inicio, cierre, cambio de escritorio…). |
 | 🖱️ **Cursores** | Cambia el tema del cursor (XCursor) e instala nuevos temas desde `.tar.gz`. |
 | 🗂️ **Áreas de trabajo** | Añade, elimina y renombra áreas de trabajo. |
+| 🎬 **Fondo de vídeo** | Establece un vídeo MP4 como fondo de pantalla animado con xwinwrap y mpv. |
 
 ---
 
@@ -37,6 +38,8 @@ Basado en el proyecto original de **Vadim A. Khohlov** (2002‑2004), ahora rees
 - `python-gobject`
 - `polkit` (opcional, para guardar archivos protegidos con contraseña)
 - `pkexec` (opcional, para editar archivos del sistema)
+- `mpv`
+- `xwinwrap` 
 
 En Arch Linux se instalan automáticamente con el paquete AUR.
 
